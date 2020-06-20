@@ -1,0 +1,70 @@
+
+?
+java:S1659Ş""Declare "maxY" on a separate line.(ÎˆÙ88òå°¤ª.
+x
+java:S1104í	"UMake scaleType a static final constant or non-public and provide accessors if needed.(ÿ• ³ùÿÿÿÿ8òå°¤ª.
+N
+java:S1659R"1Declare "prevMatchViewHeight" on a separate line.(Íæ… 8òå°¤ª.
+F
+java:S27865")Remove this redundant "static" qualifier.(Ù‹æ˜8òå°¤ª.
+D
+java:S1905ğ"&Remove this unnecessary cast to "int".(ú‰½´8òå°¤ª.
+t
+java:S1104ê	"QMake scale a static final constant or non-public and provide accessors if needed.(¥…±öùÿÿÿÿ8òå°¤ª.
+A
+java:S1659Õ"#Declare "currY" on a separate line.(Îó8òå°¤ª.
+C
+java:S3398À"&Move this method into "DoubleTapZoom".(Ÿ°şH8òå°¤ª.
+_
+java:S2184¦"ACast one of the operands of this division operation to a "float".(ªÄÜ•8òå°¤ª.
+I
+java:S1659M",Declare "prevViewHeight" on a separate line.(‰±©ë8òå°¤ª.
+^	java:S107­	"<Method has 8 parameters, which is greater than 7 authorized.(©§Æúÿÿÿÿ8òå°¤ª.
+D
+java:S1905ğ"&Remove this unnecessary cast to "int".(ú‰½´8òå°¤ª.
+F
+java:S1659¿"(Declare "targetZoom" on a separate line.(Ê’Æ¦8òå°¤ª.
+?
+java:S1659Ş""Declare "maxX" on a separate line.(ÎˆÙ88òå°¤ª.
+u
+java:S1104ì	"RMake focusY a static final constant or non-public and provide accessors if needed.(Ôµ‡Éşÿÿÿÿ8òå°¤ª.
+I
+java:S1659İ"&Declare "maxTrans" on a separate line.(óãÙ¼úÿÿÿÿ8òå°¤ª.
+p
+java:S1871İ"MThis branch's code block is the same as the block for the branch on line 730.(‡ºø§úÿÿÿÿ8òå°¤ª.
+_
+java:S2184¦"ACast one of the operands of this division operation to a "float".(ªÄÜ•8òå°¤ª.
+J
+java:S16593"(Declare "prevMatrix" on a separate line.(‘›Ğ°ÿÿÿÿÿ8òå°¤ª.
+D	java:S131º""Add a default case to this switch.(ãÁğ™øÿÿÿÿ8òå°¤ª.
+>
+java:S11167"Remove this empty statement.(Åñ­õşÿÿÿÿ8òå°¤ª.
+h	java:S128»"LEnd this switch case with an unconditional break, return or throw statement.(ê¢ö(8òå°¤ª.
+M
+java:S1659R"0Declare "prevMatchViewWidth" on a separate line.(Íæ… 8òå°¤ª.
+d
+java:S2184‡"ACast one of the operands of this division operation to a "float".(µâ¨øÿÿÿÿ8òå°¤ª.
+_
+java:S2184•"ACast one of the operands of this division operation to a "float".(äâ†ƒ8òå°¤ª.
+F
+java:S1659"(Declare "upperScale" on a separate line.(¼â®8òå°¤ª.
+E
+java:S1659M"(Declare "viewHeight" on a separate line.(‰±©ë8òå°¤ª.
+?
+java:S1659Ş""Declare "minY" on a separate line.(ÎˆÙ88òå°¤ª.
+u
+java:S1104ë	"RMake focusX a static final constant or non-public and provide accessors if needed.(®àµşÿÿÿÿ8òå°¤ª.
+R
+java:S3398ï"/Move this method into "PrivateOnTouchListener".(‰Šß‹ıÿÿÿÿ8òå°¤ª.
+_
+java:S2184•"ACast one of the operands of this division operation to a "float".(äâ†ƒ8òå°¤ª.
+H
+java:S1659À"%Declare "bitmapY" on a separate line.(³¢ôùÿÿÿÿ8òå°¤ª.
+d
+java:S2184‡"ACast one of the operands of this division operation to a "float".(µâ¨øÿÿÿÿ8òå°¤ª.
+J
+java:S1659R"-Declare "matchViewHeight" on a separate line.(Íæ… 8òå°¤ª.
+k
+java:S1871à"MThis branch's code block is the same as the block for the branch on line 730.(¬ºûß8òå°¤ª.
+H
+java:S1659M"+Declare "prevViewWidth" on a separate line.(‰±©ë8òå°¤ª.

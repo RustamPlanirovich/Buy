@@ -1,0 +1,31 @@
+
+h
+java:S1128"FRemove this unused import 'androidx.recyclerview.widget.RecyclerView'.(Îèòçøÿÿÿÿ8€ÓÄ¬.
+p
+java:S3776Ã"RRefactor this method to reduce its Cognitive Complexity from 38 to the 15 allowed.(–‡Œ´8÷ƒ“À¬.
+J
+java:S1068="(Remove this unused "Year" private field.(Öæ·”ùÿÿÿÿ8ÏÊÛ»¬.
+T
+java:S1153…"1Directly append the argument of String.valueOf().(²Ä³£ýÿÿÿÿ8Ÿ‹ŸÛ¬.
+o
+java:S1128"MRemove this unused import 'androidx.recyclerview.widget.LinearLayoutManager'.(ôœ¹ºýÿÿÿÿ8©“ÀÄ¬.
+E	java:S108a")Either remove or fill this block of code.(ãñ¡×8ÛÉÉ¼¬.
+s
+java:S1450>"WRemove the "calendar" field and declare it as a local variable in the relevant methods.(½™ÿf8¼ó¦›¬.
+l	java:S116<"PRename this field "Month" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñëÿž8î¢¢›¬.
+J	java:S108f")Either remove or fill this block of code.(Ù›Ãñþÿÿÿÿ8ÛÉÉ¼¬.
+u
+java:S1450="SRemove the "Year" field and declare it as a local variable in the relevant methods.(Öæ·”ùÿÿÿÿ8˜ã£›¬.
+X
+java:S1117Î"5Rename "c" which hides the field declared at line 67.(£›¾˜úÿÿÿÿ8àƒÃÄ¬.
+N
+java:S1128",Remove this unused import 'android.net.Uri'.(òêû‘ýÿÿÿÿ8€ÓÄ¬.
+p	java:S116="ORename this field "Year" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Öæ·”ùÿÿÿÿ8î¢¢›¬.
+x	java:S116#"WRename this field "total_amount" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂúÁªÿÿÿÿÿ8©‹Ì·¥.
+u
+java:S1450;"SRemove the "Date" field and declare it as a local variable in the relevant methods.(¿«×üÿÿÿÿ8˜ã£›¬.
+O
+java:S1153"1Directly append the argument of String.valueOf().(ò³©†8¥ÞÝÄ¬.
+q
+java:S1450<"TRemove the "Month" field and declare it as a local variable in the relevant methods.(Ñëÿž8˜ã£›¬.
+p	java:S116;"ORename this field "Date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿«×üÿÿÿÿ8î¢¢›¬.

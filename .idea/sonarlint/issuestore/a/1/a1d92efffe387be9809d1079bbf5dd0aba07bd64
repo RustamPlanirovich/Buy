@@ -1,0 +1,17 @@
+
+p	java:S116&"ORename this field "Date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä¯óûÿÿÿÿ8²¨¶À¬.
+L
+java:S1481C"/Remove this unused "dayOfMounh" local variable.(ë™Ï8°ê¯Ã¬.
+l	java:S116'"PRename this field "Month" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğšÊÙ8²¨¶À¬.
+[
+java:S1172."9Remove this unused method parameter "savedInstanceState".(´ŒĞÚùÿÿÿÿ8³›èÁ¬.
+
+java:S1450"]Remove the "myFragmentView" field and declare it as a local variable in the relevant methods.(Æ–³éÿÿÿÿÿ8¿Ñ¯Ã¬.
+O
+java:S1128
+"-Remove this unused import 'android.util.Log'.(Ô¦Ø²øÿÿÿÿ8ÎÛ°Ä¬.
+e
+java:S1128"CRemove this unused import 'androidx.fragment.app.FragmentActivity'.(Êñô–úÿÿÿÿ8â¤†Â¬.
+p	java:S116("ORename this field "Year" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª§ÁĞşÿÿÿÿ8³›èÁ¬.
+]
+java:S1128";Remove this unused import 'androidx.fragment.app.Fragment'.(‚Š©“ùÿÿÿÿ8ô¼‹Â¬.

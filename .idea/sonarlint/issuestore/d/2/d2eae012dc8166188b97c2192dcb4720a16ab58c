@@ -1,0 +1,19 @@
+
+£
+java:S1186$"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ñ¨ãÁüÿÿÿÿ8ùæûÚ¬.
+T
+java:S1874P"8Remove this use of "getChildPosition"; it is deprecated.(¬¯¸P8ùæûÚ¬.
+¤
+java:S1186‘"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ì¤Èÿÿÿÿÿ8ùæûÚ¬.
+~
+java:S1488K"aImmediately return this expression instead of assigning it to the temporary variable "childView".(†›ı‰8ùæûÚ¬.
+P
+java:S1172"3Remove this unused method parameter "recyclerView".(ĞÓ†ğ8ùæûÚ¬.
+_
+java:S1126€"AReplace this if-then-else statement by a single return statement.(ÕÚ”ÿ8ùæûÚ¬.
+¤
+java:S1186–"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(·Ï’÷ıÿÿÿÿ8ùæûÚ¬.
+£
+java:S1186("€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(úêøüÿÿÿÿ8ùæûÚ¬.
+Z
+java:S1197z"8Move the array designator from the variable to the type.(¢Ê¡Ëÿÿÿÿÿ8ùæûÚ¬.

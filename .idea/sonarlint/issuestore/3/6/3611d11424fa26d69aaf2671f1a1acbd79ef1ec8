@@ -1,0 +1,10 @@
+
+e	java:S116$"PRename this field "Month" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ðšÊÙ
+i	java:S116#"ORename this field "Date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä¯óûÿÿÿÿ
+D
+java:S1481>"/Remove this unused "dateFormat" local variable.(öì†0
+T
+java:S1172*"9Remove this unused method parameter "savedInstanceState".(´ŒÐÚùÿÿÿÿ
+i	java:S116%"ORename this field "Year" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª§ÁÐþÿÿÿÿ
+x
+java:S1450"]Remove the "myFragmentView" field and declare it as a local variable in the relevant methods.(Æ–³éÿÿÿÿÿ

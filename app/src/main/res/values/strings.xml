@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Buy</string>
+    <string name="purchases">Покупки за месяц</string>
+    <string name="total_amount">0</string>
+    <string name="add_purchases">Добавить чек</string>
+    <string name="ok">Добавить</string>
+    <string name="about_add_card">Ввод нового чека</string>
+    <string name="about_add_card1">Дата (нажмите для выбора)</string>
+    <string name="about_add_card2">Введите сумму чека</string>
+    <string name="about_add_card3">Сумма</string>
+    <string name="add_button">Добавить</string>
+    <string name="chooseaction">PPP</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="NULLL">null</string>
+    <string name="mount_ballance">Бюджет на месяц</string>
+    <string name="mount_ballance_summ">Сумма</string>
+    <string name="add_mount_ballance">Добавить</string>
+    <string name="mount_ballance_activity">0</string>
+</resources>

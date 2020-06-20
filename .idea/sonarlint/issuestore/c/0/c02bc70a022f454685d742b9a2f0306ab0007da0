@@ -1,0 +1,16 @@
+
+p
+java:S1128"NRemove this unused import 'androidx.constraintlayout.widget.ConstraintLayout'.(¨‘úÿÿÿÿ8ºû¾Á¬.
+
+java:S1450!"]Remove the "myFragmentView" field and declare it as a local variable in the relevant methods.(Æ–³éÿÿÿÿÿ8–ğáš¬.
+p	java:S116#"ORename this field "Date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä¯óûÿÿÿÿ8¿£¼¬.
+^
+java:S1128"<Remove this unused import 'android.annotation.SuppressLint'.(ÕƒóÏûÿÿÿÿ8‰ÙñÄ¬.
+T
+java:S1128"7Remove this unused import 'java.text.SimpleDateFormat'.(ú¡ÙÛ8‰ÙñÄ¬.
+l	java:S116$"PRename this field "Month" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğšÊÙ8¿£¼¬.
+\
+java:S1128":Remove this unused import 'android.database.SQLException'.(ø‹çëşÿÿÿÿ8¤¶ª¹¬.
+p	java:S116%"ORename this field "Year" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª§ÁĞşÿÿÿÿ8¿£¼¬.
+t
+java:S1450"WRemove the "dbHelper" field and declare it as a local variable in the relevant methods.(ã¶ÅÍ8Íçäš¬.
