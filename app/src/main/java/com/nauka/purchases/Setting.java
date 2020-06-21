@@ -71,6 +71,7 @@ public class Setting extends DialogFragment {
             ballanceMount = mountBallance.getInt(mountballanc);
         }
         mountBallance.close();
+//He
 
         if (mountBallance.getCount() == 0) {
             addSum.setOnClickListener(new View.OnClickListener() {
