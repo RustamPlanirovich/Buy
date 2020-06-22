@@ -2,10 +2,12 @@ package com.nauka.purchases;
 
 import android.annotation.SuppressLint;
 import android.app.DatePickerDialog;
+import android.app.Dialog;
 import android.content.ContentValues;
 import android.content.Context;
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
+import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
@@ -18,6 +20,7 @@ import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import androidx.core.content.FileProvider;
@@ -32,6 +35,7 @@ import java.util.Calendar;
 import java.util.Date;
 
 import static com.nauka.purchases.R.layout.add_purchase_fragment_view;
+import static com.nauka.purchases.R.layout.add_purchase_fragment_view1;
 
 public class addPurchasesFragment extends DialogFragment {
     private static final int RESULT_OK = -1;
@@ -49,7 +53,7 @@ public class addPurchasesFragment extends DialogFragment {
     private View myFragmentView;
     private Calendar calendar;
     private EditText editText;
-    private  Button addButton;
+    private  Button confirm_btn;
     private  Context mContext;
     private  EditText sumPurchses;
     private  ByteArrayOutputStream steam;
@@ -63,9 +67,10 @@ public class addPurchasesFragment extends DialogFragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        myFragmentView = inflater.inflate(add_purchase_fragment_view,
+        myFragmentView = inflater.inflate(add_purchase_fragment_view1,
                 container, false);
-        editText = myFragmentView.findViewById(R.id.editText2);
+        setStyle(DialogFragment.STYLE_NO_FRAME, 0);
+        editText = myFragmentView.findViewById(R.id.editText);
         mContext = editText.getContext();
         //Инициализация класса базы данных
         dbHelper = new DBHelper(mContext);
@@ -77,9 +82,9 @@ public class addPurchasesFragment extends DialogFragment {
         cv = new ContentValues();
         calendar = Calendar.getInstance();
 
-        sumPurchses = myFragmentView.findViewById(R.id.summPurchases);
-        addButton = myFragmentView.findViewById(R.id.add_button);
-        img = myFragmentView.findViewById(R.id.img);
+        sumPurchses = myFragmentView.findViewById(R.id.summPurchases2);
+        confirm_btn = myFragmentView.findViewById(R.id.confirm_btn);
+        img = myFragmentView.findViewById(R.id.img2);
         Date = calendar.get(Calendar.DAY_OF_MONTH);
         Month = calendar.get(Calendar.MONTH);
         Year = calendar.get(Calendar.YEAR);
@@ -128,7 +133,7 @@ public class addPurchasesFragment extends DialogFragment {
                 }
             }
         });
-        addButton.setOnClickListener(new View.OnClickListener() {
+        confirm_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Log.d("MY","yes");
