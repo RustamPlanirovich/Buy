@@ -18,4 +18,9 @@
     <string name="mount_ballance_summ">Сумма</string>
     <string name="add_mount_ballance">Добавить</string>
     <string name="mount_ballance_activity">0</string>
+
+    <string-array name="cashNames">
+        <item>Наличные</item>
+        <item>Карта</item>
+    </string-array>
 </resources>

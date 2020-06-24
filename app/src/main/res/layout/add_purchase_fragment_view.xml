@@ -5,21 +5,15 @@
     android:id="@+id/a"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:background="#000000">
+    android:background="#000000"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/card_add"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#00FFFFFF"
-        android:bottomLeftRadius="0dp"
-        android:radius="@dimen/ios_dialog_radius"
-        android:topLeftRadius="0dp"
-        android:topRightRadius="0dp"
-        app:cardBackgroundColor="#FF282828"
-
-        app:cardPreventCornerOverlap="false"
-        app:cardUseCompatPadding="true"
+        app:cardBackgroundColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -28,7 +22,7 @@
             android:id="@+id/b"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#00FFFFFF">
+            android:background="@drawable/card_view_bg">
 
             <TextView
                 android:id="@+id/about_add_card"
@@ -116,10 +110,13 @@
 
     <Button
         android:id="@+id/add_button"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:background="@drawable/iosdialog_left_btn_selector"
-        android:text="@string/add_button"
+        android:background="@drawable/iosdialog_sigle_btn_selector"
+        android:text="@string/add_mount_ballance"
+        android:textAllCaps="false"
+        android:textColor="#FF037BFF"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/card_add" />
 

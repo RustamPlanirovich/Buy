@@ -23,6 +23,8 @@ import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
+import androidx.cardview.widget.CardView;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.core.content.FileProvider;
 import androidx.fragment.app.DialogFragment;
 
@@ -37,7 +39,7 @@ import java.util.Date;
 import static com.nauka.purchases.R.layout.add_purchase_fragment_view;
 import static com.nauka.purchases.R.layout.add_purchase_fragment_view1;
 
-public class addPurchasesFragment extends DialogFragment {
+public class AddPurchasesFragment extends DialogFragment {
     private static final int RESULT_OK = -1;
     private static final int CAMERA_REQUEST = 1;
     //Объявляем класс базы данных
@@ -52,11 +54,11 @@ public class addPurchasesFragment extends DialogFragment {
     private long dateMillis;
     private View myFragmentView;
     private Calendar calendar;
-    private EditText editText;
-    private  Button confirm_btn;
-    private  Context mContext;
-    private  EditText sumPurchses;
-    private  ByteArrayOutputStream steam;
+    private EditText editText2;
+    private Button add_button;
+    private Context mContext;
+    private EditText summPurchases;
+    private ByteArrayOutputStream steam;
     private ImageButton img;
     private Uri outputFileUri;
     Intent cameraIntent;
@@ -67,11 +69,10 @@ public class addPurchasesFragment extends DialogFragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        myFragmentView = inflater.inflate(add_purchase_fragment_view1,
+        myFragmentView = inflater.inflate(add_purchase_fragment_view,
                 container, false);
-        setStyle(DialogFragment.STYLE_NO_FRAME, 0);
-        editText = myFragmentView.findViewById(R.id.editText);
-        mContext = editText.getContext();
+        editText2 = myFragmentView.findViewById(R.id.editText2);
+        mContext = editText2.getContext();
         //Инициализация класса базы данных
         dbHelper = new DBHelper(mContext);
 
@@ -82,18 +83,19 @@ public class addPurchasesFragment extends DialogFragment {
         cv = new ContentValues();
         calendar = Calendar.getInstance();
 
-        sumPurchses = myFragmentView.findViewById(R.id.summPurchases2);
-        confirm_btn = myFragmentView.findViewById(R.id.confirm_btn);
-        img = myFragmentView.findViewById(R.id.img2);
+        summPurchases = myFragmentView.findViewById(R.id.summPurchases);
+        add_button = myFragmentView.findViewById(R.id.add_button);
+        img = myFragmentView.findViewById(R.id.img);
         Date = calendar.get(Calendar.DAY_OF_MONTH);
         Month = calendar.get(Calendar.MONTH);
         Year = calendar.get(Calendar.YEAR);
-        editText.setText(Date+"."+(Month+1)+"."+Year);
+        editText2.setText(Date + "." + (Month + 1) + "." + Year);
 
         dateMillis = calendar.getTimeInMillis();
 
-        editText.setOnTouchListener(new View.OnTouchListener() {
-            Context mContext = editText.getContext();
+        editText2.setOnTouchListener(new View.OnTouchListener() {
+            Context mContext = editText2.getContext();
+
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 if (event.getAction() == MotionEvent.ACTION_UP) {
@@ -102,8 +104,8 @@ public class addPurchasesFragment extends DialogFragment {
                                 @Override
                                 public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
 
-                                    String editTextDateParam = dayOfMonth+"."+(month+1)+"."+year;
-                                    editText.setText(editTextDateParam);
+                                    String editTextDateParam = dayOfMonth + "." + (month + 1) + "." + year;
+                                    editText2.setText(editTextDateParam);
 
                                     calendar.set(Calendar.DAY_OF_MONTH, dayOfMonth);
                                     calendar.set(Calendar.MONTH, month);
@@ -115,12 +117,13 @@ public class addPurchasesFragment extends DialogFragment {
 
                                     dateMillis = calendar.getTimeInMillis();
                                 }
-                            },Year,Month,Date);
+                            }, Year, Month, Date);
                     datePickerDialog.show();
                 }
                 return false;
             }
         });
+
 
         img.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -133,16 +136,16 @@ public class addPurchasesFragment extends DialogFragment {
                 }
             }
         });
-        confirm_btn.setOnClickListener(new View.OnClickListener() {
+        add_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.d("MY","yes");
+                Log.d("MY", "yes");
                 cv.put("purchases", dateMillis);
-                cv.put("summ", String.valueOf(sumPurchses.getText()));
+                cv.put("summ", String.valueOf(summPurchases.getText()));
                 cv.put("imageaddres", String.valueOf(photoFile));
-                cv.put("day",String.valueOf(Date));
-                cv.put("mount",String.valueOf(Month+1));
-                cv.put("year",String.valueOf(Year));
+                cv.put("day", String.valueOf(Date));
+                cv.put("mount", String.valueOf(Month + 1));
+                cv.put("year", String.valueOf(Year));
                 if (photoFile != null) {
                     cv.put("imageaddesview", "ok");
                 }

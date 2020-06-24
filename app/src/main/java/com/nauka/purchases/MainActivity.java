@@ -5,7 +5,6 @@ import android.annotation.SuppressLint;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -16,8 +15,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
@@ -39,7 +36,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     DBHelper dbHelper;
     //Объявляем подключение к БД
     SQLiteDatabase db;
-    addPurchasesFragment purchasesFragment;
+    AddPurchasesFragment purchasesFragment;
     TodayViewRecycle mDetailViewRecycle;
     YesterdayViewRecycle mYesterdayViewRecycle;
     ThisMonthViewRecycle mThisMonthViewRecycle;
@@ -111,7 +108,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         dbHelper = new DBHelper(this);
 
-        purchasesFragment = new addPurchasesFragment();
+        purchasesFragment = new AddPurchasesFragment();
         settingFragment = new Setting();
         mDetailViewRecycle = new TodayViewRecycle();
         mYesterdayViewRecycle = new YesterdayViewRecycle();

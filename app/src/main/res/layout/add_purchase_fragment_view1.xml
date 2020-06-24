@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@drawable/iosdialog_bg"
+    app:cardBackgroundColor="@color/colorTranc"
     android:orientation="vertical"
     android:scrollbarThumbHorizontal="@drawable/iosdialog_bg"
     android:scrollbarThumbVertical="@drawable/iosdialog_bg">
