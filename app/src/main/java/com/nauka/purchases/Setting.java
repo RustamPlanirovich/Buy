@@ -23,27 +23,49 @@ import java.util.List;
 import static com.nauka.purchases.R.layout.setting_fragment;
 
 public class Setting extends DialogFragment {
+    //Объявляем
     EditText ballance;
+    //Объявляем
     Button addSum;
+    //Объявляем
     private DBHelper dbHelper;
+    //Объявляем
     private ContentValues cv;
+    //Объявляем
     private SQLiteDatabase db;
+    //Объявляем
     int id;
+    //Объявляем
     Context mContext;
+    //Объявляем
     private View myFragmentView;
+    //Объявляем
     Calendar calendar;
+    //Объявляем
     int Date;
+    //Объявляем
     int Month;
+    //Объявляем
     int Year;
+    //Объявляем
     String thisMonthAmount;
+    //Объявляем
     int mountballanc;
+    //Объявляем
     int ballanceMount;
+    //Объявляем
     int mount;
+    //Объявляем
     int mountInt;
+    //Объявляем
     Button addCadh;
+    //Объявляем
     AddCash cash;
+    //Объявляем
     RecyclerView cashItem;
+    //Объявляем
     List<CashItem> listItem;
+    //Объявляем
     CashAdapter adapterMy;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

@@ -26,48 +26,81 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    //Объявляем класс базы данных
+    //Объявляем
     Date mDate;
     //Объявляем TextView для отображения итоговой суммы
     TextView total_amount;
     //Объявляем FloatButton для добавления чека
     FloatingActionButton addPurchases;
-    //Объявляем объект для данных
+    //Объявляем
     DBHelper dbHelper;
     //Объявляем подключение к БД
     SQLiteDatabase db;
+    //Объявляем
     AddPurchasesFragment purchasesFragment;
+    //Объявляем
     TodayViewRecycle mDetailViewRecycle;
+    //Объявляем
     YesterdayViewRecycle mYesterdayViewRecycle;
+    //Объявляем
     ThisMonthViewRecycle mThisMonthViewRecycle;
+    //Объявляем
     LastMonthViewRecycle mLastMonthViewRecycle;
+    //Объявляем
     Setting settingFragment;
+    //Объявляем
     MyAdapter adapterMy;
+    //Объявляем
     List<RecyclerItem> listItem;
+    //Объявляем
     FloatingActionButton rec;
+    //Объявляем
     ImageButton settingButt;
+    //Объявляем
     TextView mountbal;
+    //Объявляем
     TextView todayAmount;
+    //Объявляем
     TextView yesterdayAmount;
+    //Объявляем
     TextView forThisMonthAmount;
+    //Объявляем
     TextView lastMonthAmount;
+    //Объявляем
     Cursor mountBallance;
+    //Объявляем
     TextView currentDate;
+    //Объявляем
     private int Date;
+    //Объявляем
     private int Month;
+    //Объявляем
     private int Year;
+    //Объявляем
     private Calendar calendar;
+    //Объявляем
     String today;
+    //Объявляем
     String yesterday;
+    //Объявляем
     String thisMonthAmount;
+    //Объявляем
     String lastMonth;
+    //Объявляем
     Cursor c;
+    //Объявляем
     TextView ballanc;
+    //Объявляем
     CardView todayCardView;
+    //Объявляем
     CardView yesterdayCardView;
+    //Объявляем
     CardView forThisMonthCardView;
+    //Объявляем
     CardView lastMonthCardView;
+    //Объявляем
     int mountballanc;
+    //Объявляем
     int summballance;
 
     @SuppressLint({"SetTextI18n", "CutPasteId"})

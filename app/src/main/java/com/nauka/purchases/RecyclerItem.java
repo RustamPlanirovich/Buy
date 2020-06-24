@@ -5,11 +5,17 @@ import android.net.Uri;
 
 
 public class RecyclerItem {
+    //Объявляем
     private String title;
+    //Объявляем
     private String description;
+    //Объявляем
     private Uri imageaddres;
+    //Объявляем
     private String imageaddesview;
+    //Объявляем
     private int id;
+    //Объявляем
     private String mount;
 
 

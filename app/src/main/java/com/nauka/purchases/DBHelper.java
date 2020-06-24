@@ -9,6 +9,8 @@ class DBHelper extends SQLiteOpenHelper {
         super(context, "purchasesDB", null, 9);
     }
 
+    /*Метод onCreate здесь создаются база данных с вложенными таблицами вслучае если БД отсутствует
+    или приложение запускается первый раз*/
     public void onCreate(SQLiteDatabase db) {
         db.execSQL("create table purchasesTable("
                 + "id integer primary key autoincrement,"
@@ -40,6 +42,7 @@ class DBHelper extends SQLiteOpenHelper {
     }
 
 
+    //Метод в котором БД обновляется, только при условии что версия БД ниже новой версии
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 

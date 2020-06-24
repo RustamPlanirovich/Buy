@@ -24,19 +24,33 @@ import java.util.List;
 import static com.nauka.purchases.R.layout.dialog_view_recycle;
 
 public class YesterdayViewRecycle extends DialogFragment {
+    //Объявляем
     private View myFragmentView;
+    //Объявляем
     RecyclerView recyclerView;
+    //Объявляем
     DBHelper dbHelper;
+    //Объявляем
     SQLiteDatabase db;
+    //Объявляем
     List<RecyclerItem> listItem;
+    //Объявляем
     MyAdapter adapterMy;
+    //Объявляем
     Context mContext;
+    //Объявляем
     Calendar calendar;
+    //Объявляем
     int Date;
+    //Объявляем
     int Month;
+    //Объявляем
     int Year;
+    //Объявляем
     String today;
+    //Объявляем
     TextView no;
+    //Объявляем
     Context del;
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {

@@ -30,12 +30,19 @@ import java.io.File;
 import java.util.List;
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
+    //Объявляем
     private List<RecyclerItem> listItems;
+    //Объявляем
     private Context mContext;
+    //Объявляем
     DBHelper dbHelper;
+    //Объявляем
     SQLiteDatabase db;
+    //Объявляем
     String sumPosition;
+    //Объявляем
     Context del;
+    //Объявляем
     String mounth;
     public MyAdapter(List<RecyclerItem> listItems, Context mContext) {
         this.listItems = listItems;
