@@ -12,9 +12,14 @@ public class CashItem {
 
 
     public CashItem(int id, String purse, int purseSumm, String type) {
+        /*listItem заполняется при чтении данных из БД*/
+        //Инициализируем id и присваеваем ему значение полученное из listItem
         this.id = id;
+        //Инициализируем purse и присваеваем ему значение полученное из listItem
         this.purse = purse;
+        //Инициализируем purseSumm и присваеваем ему значение полученное из listItem
         this.purseSumm = purseSumm;
+        //Инициализируем type и присваеваем ему значение полученное из listItem
         this.type = type;
     }
 

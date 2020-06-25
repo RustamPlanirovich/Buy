@@ -11,9 +11,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
-
 import androidx.fragment.app.DialogFragment;
-
 import static com.nauka.purchases.R.layout.add_cash;
 
 public class AddCash extends DialogFragment {

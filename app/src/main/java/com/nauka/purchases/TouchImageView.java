@@ -24,7 +24,8 @@ import android.widget.OverScroller;
 import android.widget.Scroller;
 
 
-
+/*Класс который делает возможным увеличение изображения которое находиться
+* в ImageView с помощью тройного тапа*/
 public class TouchImageView extends androidx.appcompat.widget.AppCompatImageView {
 
 //	private static final String DEBUG = "DEBUG";

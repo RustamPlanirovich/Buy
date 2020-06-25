@@ -8,6 +8,9 @@ import android.view.ViewGroup;
 
 import androidx.recyclerview.widget.RecyclerView;
 
+/*Класс который обеспечивает корректный клик по элементам CardView который
+* находиться внутри RecycleView*/
+
 public class RecyclerItemClickListener implements RecyclerView.OnItemTouchListener{
 
     private final GestureDetector mGestureDetector;
